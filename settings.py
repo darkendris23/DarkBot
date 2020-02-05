@@ -9,7 +9,7 @@ COMMAND_PREFIX = "!"
  
 # The bot token. Keep this secret!
 load_dotenv()
-token = os.getenv('DISCORD_TOKEN')
+TOKEN = os.getenv('DISCORD_TOKEN')
  
 # The now playing game. Set this to anything false-y ("", None) to disable it
 NOW_PLAYING = COMMAND_PREFIX + "commands"
